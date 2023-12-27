@@ -1,0 +1,85 @@
+/* Reset CSS */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Header Styling */
+.header {
+  background-color: #bbff00ab;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Form Styling */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+  padding: 12px 20px;
+  background-color: #1900ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2f00ff;
+}
+
+/* Logo Styling */
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
